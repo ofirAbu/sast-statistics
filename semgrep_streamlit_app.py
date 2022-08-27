@@ -1,6 +1,6 @@
 import streamlit as st
 
-from analyzer import get_languages_to_paths_dictionary, get_plotly_histogram
+from semgrep_analyzer import get_languages_to_paths_dictionary, get_plotly_histogram
 
 languages = get_languages_to_paths_dictionary()
 
